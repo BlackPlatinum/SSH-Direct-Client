@@ -9,7 +9,8 @@ In the process of making this software, Renci's <a href="https://github.com/sshn
 
 <strong>Software:</strong>
 - This software supports Windows 10 (x64) version 20H1 and later. (Older versions are not guaranteed to run this app but you are welcome to try the binaries provided in assets of each release.)
-- This software uses <a href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0">.Net 6</a> which is integrated in Self-Contained version of the app, but is required in Framework-Dependent version.
+- This software uses <a href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0">.Net 6</a> which is integrated in Self-Contained version of the app, but is required in Framework-Dependent version.</br>
+  
 <strong>Hardware:</strong>
 - Client app does not require a high-end system. If your system is capable of running Windows 10, it definitely can run this app.
 - Make sure your display resolution is high enough. In lower resolutions, the app might look cropped so you have to collapse some of the expanders to see contents that reside on the bottom of the app.
