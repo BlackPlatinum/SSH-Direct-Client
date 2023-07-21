@@ -9,8 +9,7 @@ In the process of making this software, Renci's <a href="https://github.com/sshn
 
 <strong>Software:</strong>
 - This software supports Windows 10 (x64) version 20H1 and later. (Older versions are not guaranteed to run this app but you are welcome to try the binaries provided in assets of each release.)
-- This software uses <a href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0">.Net 6</a> which is integrated in the app and DOES NOT require installation. However, in future a stripped version will be released which does not contain .Net 6 Runtime and takes less disk space.
-
+- This software uses <a href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0">.Net 6</a> which is integrated in Self-Contained version of the app, but is required in Framework-Dependent version.
 <strong>Hardware:</strong>
 - Client app does not require a high-end system. If your system is capable of running Windows 10, it definitely can run this app.
 - Make sure your display resolution is high enough. In lower resolutions, the app might look cropped so you have to collapse some of the expanders to see contents that reside on the bottom of the app.
@@ -18,10 +17,14 @@ In the process of making this software, Renci's <a href="https://github.com/sshn
 ## Instructions
 Instruction of each part is provided in the same order of their placement from top to bottom on app interface.
 
-### 1) Connection Info
-1- Fill in the Host Address in correct format (e.g. 123.123.123.123)<br/>
-2- Default Host Port for SSH is 22. If your server communicates through another port, replace it with the default value.<br/>
-3- The Username and Password, provided by the server must be entered correctly in order to connect to host.<br/>
+### 1) Configurations
+1- Click Edit Configurations Button<br/>
+2- Choose a name for your Configuration<br/>
+3- Fill in the Host Address in correct format (e.g. 123.123.123.123)<br/>
+4- Default Host Port for SSH is 22. If your server communicates through another port, replace it with the default value.<br/>
+5- The Username and Password, provided by the server must be entered correctly in order to connect to host.<br/>
+6- Click Add to add the configuration to the list<br/>
+7- You can also Delete or Edit a configuration by chossing it from the list and clicking the corresponding button for the action you want<br/>
 
 ### 2) Connect Button
 Connect button is a simple button for either connecting or disconnecting from the host server. The button also represents the connection state in the following manner:<br/>
