@@ -25,7 +25,7 @@ Instruction of each part is provided in the same order of their placement from t
 4- Default Host Port for SSH is 22. If your server communicates through another port, replace it with the default value.<br/>
 5- The Username and Password, provided by the server must be entered correctly in order to connect to host.<br/>
 6- Click Add to add the configuration to the list<br/>
-7- You can also Delete or Edit a configuration by chossing it from the list and clicking the corresponding button for the action you want<br/>
+7- You can also Delete or Edit a configuration by choosing it from the list and clicking the corresponding button for the action you want<br/>
 
 ### 2) Connect Button
 Connect button is a simple button for either connecting or disconnecting from the host server. The button also represents the connection state in the following manner:<br/>
